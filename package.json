@@ -1,0 +1,19 @@
+{
+  "name": "feedrest",
+  "version": "1.0.0",
+  "description": "A RESTFul server for testing android feeds built using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Navendra Jha",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2"
+  }
+}
